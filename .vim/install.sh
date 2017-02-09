@@ -1,4 +1,5 @@
 #!/bin/bash
+set -ex
 
 # installing YouCompleteMe
 cd bundle/YouCompleteMe
