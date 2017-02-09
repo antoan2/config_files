@@ -22,4 +22,6 @@ cp $ORI/.tmux.conf ~/.tmux.conf
 cp $ORI/.aliases ~/.aliases
 # add . ~/.aliases in your ~/.bashrc
 echo '. ~/.aliases' >> ~/.bashrc
+# add insensitive autocompletion
+cp $ORI/.inputrc ~/.inputrc
 ```
