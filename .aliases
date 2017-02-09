@@ -1,0 +1,2 @@
+alias vimt="vim -c ':set tags=mytags'"
+alias tmux="tmux -2 "

@@ -18,4 +18,8 @@ cd ~/.vim
 ./install.sh
 # copy tmux.conf
 cp $ORI/.tmux.conf ~/.tmux.conf
+# add alias to your bashrc
+cp $ORI/.aliases ~/.aliases
+# add . ~/.aliases in your ~/.bashrc
+echo '. ~/.aliases' >> ~/.bashrc
 ```
