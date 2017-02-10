@@ -8,9 +8,11 @@ I also link some usefull vim plugins that are installed with pathogen.
 ```
 # get origin path
 ORI=$PWD
+# install cmake
+sudo apt-get install cmake python-dev
 # get all submodules
 git clone https://github.com/antoan2/config_files.git
-git submodule update --recursive
+git submodule update --init --recursive
 # copy .vim folder
 cp -r .vim ~/.vim
 # go and install vim plugins

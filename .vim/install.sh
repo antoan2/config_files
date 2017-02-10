@@ -1,7 +1,7 @@
 #!/bin/bash
 set -ex
 
+ln -s ~/.vim/vimrc ~/.vimrc
 # installing YouCompleteMe
 cd bundle/YouCompleteMe
-git submodule update --init --recursive
-./install.sh --clang-completer --system-clang
+python install.py
