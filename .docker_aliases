@@ -1,0 +1,3 @@
+alias docker_stop_containers='docker stop $(docker ps -a -q)'
+alias docker_rm_containers='docker rm $(docker ps -a -q)'
+alias docker_purge_images='docker rmi $(docker images | grep "^<none>" | awk "{print $3}")'
