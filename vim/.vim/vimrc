@@ -1,0 +1,35 @@
+runtime! config/**/*.vim
+
+set nocompatible
+
+function! BuildComposer(info)
+  if a:info.status != 'unchanged' || a:info.force
+    if has('nvim')
+      !cargo build --release
+    else
+      !cargo build --release --no-default-features --features json-rpc
+    endif
+  endif
+endfunction
+
+call plug#begin()
+
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' },
+Plug 'zchee/deoplete-jedi',
+Plug 'python-mode/python-mode',
+Plug 'SirVer/ultisnips',
+Plug 'honza/vim-snippets',
+Plug 'tpope/vim-fugitive',
+Plug 'tpope/vim-surround',
+Plug 'ervandew/supertab',
+Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' },
+" Plug 'scrooloose/syntastic',
+Plug 'neomake/neomake',
+Plug 'godlygeek/tabular',
+Plug 'plasticboy/vim-markdown',
+Plug 'pangloss/vim-javascript',
+" Plug 'JamshedVesuna/vim-markdown-preview',
+Plug 'euclio/vim-markdown-composer', { 'do': function('BuildComposer') },
+Plug 'vim-scripts/LaTeX-Suite-aka-Vim-LaTeX'
+
+call plug#end()
