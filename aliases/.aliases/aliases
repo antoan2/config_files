@@ -1,2 +1,3 @@
 alias vimt="vim -c ':set tags=mytags'"
 alias tmux="tmux -2 "
+alias pcat="pygmentize -g"
