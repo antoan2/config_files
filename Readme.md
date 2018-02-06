@@ -1,17 +1,19 @@
 # Description
 
-Trying to store configs in a git repo.
-I use is a very simple tmux configuration file that basically changes colors and add vim bindings.
-I also link some usefull vim plugins that are installed with pathogen.
+Storing config files in this git repo.
+
+The config files will be created in $$HOME thanks to the `stow` utility.
+
+The setup is simple :
+- zshrc
+- neovim with a few plugin and yapf / pylint configurations
+- tmux configuration
+- some aliases
+
+# Dependencies
 
 # Installation
 Run
 ```
-./install.sh
-```
-If you want some docker aliases
-```
-cp .docker_aliases ~/.docker_aliases
-# add . ~/.docker_aliases in your ~/.bashrc
-echo '. ~/.docker_aliases' >> ~/.bashrc
+make install
 ```
