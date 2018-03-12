@@ -11,6 +11,10 @@ The setup is simple :
 - some aliases
 
 # Dependencies
+- Neovim
+- zshrc
+- neovim with a few plugin and yapf / pylint configurations
+- tmux configuration
 
 # Installation
 Run
