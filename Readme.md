@@ -15,6 +15,7 @@ The setup is simple :
 - zshrc
 - neovim with a few plugin and yapf / pylint configurations
 - tmux configuration
+- stow
 
 # Installation
 Run
