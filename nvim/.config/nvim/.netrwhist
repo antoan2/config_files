@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/home/tonio/Repos/config_files/zshrc'
+let g:netrw_dirhist_2='/home/tonio/Repos/tensorflow-experiments/mnist-supermemo'
+let g:netrw_dirhist_3='/home/tonio/.kaggle'
+let g:netrw_dirhist_4='/home/tonio/Repos/zindi-traffic-jam/learning-tool'
+let g:netrw_dirhist_5='/home/tonio/Repos/kaggle-google-analytics-prediction/learning-tool'
+let g:netrw_dirhist_6='/home/tonio/Repos/kaggle-titanic/learning-tool/src'
+let g:netrw_dirhist_7='/home/tonio/Repos/kaggle-ga-customer-revenue-prediction/learning-tool/src'
+let g:netrw_dirhist_8='/home/tonio/.vim'
+let g:netrw_dirhist_9='/home/tonio/Repos/config_files/vim/.vim'
