@@ -89,6 +89,8 @@ export EDITOR='vim'
 stty -ixon
 
 alias vim="nvim"
+alias pip="pip3"
+alias python="python3"
 
 export KEYTIMEOUT=1
 # function zle-line-init zle-keymap-select {
