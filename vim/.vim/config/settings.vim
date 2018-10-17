@@ -33,6 +33,6 @@ autocmd BufWritePre * %s/\s\+$//e
 set tags=tags;/
 " set nohlsearch
 
-map <C-t> :NERDTreeToggle <CR>
+" map <C-t> :NERDTreeToggle <CR>
 
 autocmd VimEnter * NERDTree
